@@ -1,0 +1,80 @@
+body {
+	font-family: "Roboto", sans-serif;
+	margin: 0 0 0 0;
+}
+
+header {
+	background-color: #EEEEEE;
+	border-bottom: 1px solid black;
+	height: 50px;
+    width: 100%;
+}
+
+a.logo {
+    width: 25%;
+    position: relative;
+    padding-left: 10px;
+    text-decoration: none;
+    height: auto;
+    display: block;
+    float: left;
+}
+
+
+.logo > h1 {
+    position: relative;
+    margin: 0 0 0 0;
+    color: black;
+    font-size: 20px;
+}
+
+li.nav-list {
+	display: inline;
+	margin-left: 10px;
+}
+
+.menu {
+    position: relative;
+    list-style-type: none;
+    padding: 0;
+    float: right;
+    width: 16%;
+    display: block;
+    font-size: 20px;
+}
+
+
+input.search {
+	height: 25px;
+	width: 150px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.fa-star:hover {
+	color: yellow;
+}
+
+.pages-button {
+	/* will create thin black border, rounded edges for buttons */
+}
+
+li.listings {
+	/* will replace bulletpoint with star, add margins */
+}
+
+li.listings:hover {
+ 	/* will turn the star yellow when hovered */
+}
+
+.listings {
+	top: 250px;
+	/* section div--does this need to apply to anything but the container? */
+}
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gregslist</title>
+  <meta charset="utf-8" name="description" content="We've got the best lists, don't we folks?">
+
+  <!-- fonts  -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+  <!-- reset -->
+  <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css"> -->
+
+  <!-- styles -->
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+
+
+<body>
+  <header>
+    <a class="logo" href="/">
+      <h1>Greg's List</h1>
+    </a>
+    <nav class="menu">
+      <ul>
+        <li class="nav-list">
+          Posts
+        </li>
+        <li class="nav-list">
+          Account
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section class="search-section">
+    <form action="#">
+      <label for="search">Search Jobs</label>
+      <input type="text" id="search" placeholder="Developer, designer, internship..." />
+      <button type="submit" class="search-button">
+        <span class="fa fa-search"></span>
+      </button>
+    </form>
+  </section>
+
+  <nav class="pages">
+    <a class="pages-button">&lt; prev</a>
+    <span class="pages-display">1 to 100 of 9001</span>
+    <a class="pages-button">next &gt;</a>
+  </nav>
+
+  <main>
+    <ul class="listings">
+      <li class="listing">
+        <span class="fa fa-star"></span>
+        <span class="listing-date">July 22</span>
+        <a href="#" class="listing-title">Technical Project Manager</a>
+        <span class="listing-location">Midtown East</span>
+      </li>
+      <li class="listing">
+        <span class="fa fa-star"></span>
+        <span class="listing-date">July 21</span>
+        <a href="#" class="listing-title">Frontend Developer</a>
+        <span class="listing-location">SoHo</span>
+      </li>
+      <li class="listing">
+        <span class="fa fa-star"></span>
+        <span class="listing-date">July 20</span>
+        <a href="#" class="listing-title">Senior Python Developer / Cofounder</a>
+        <span class="listing-location">Flatiron</span>
+      </li>
+    </ul>
+  </main>
+</body>
+</html>
