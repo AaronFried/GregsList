@@ -1,25 +1,26 @@
 body {
-	font-family: "Roboto", sans-serif;
-	margin: 0 0 0 0;
+    font-family: "Roboto", sans-serif;
+    margin: 0 0 0 0;
 }
 
 header {
-	background-color: #EEEEEE;
-	border-bottom: 1px solid black;
-	height: 50px;
+    background-color: #EEEEEE;
+    border-bottom: 1px solid black;
+    height: auto;
     width: 100%;
+    position: fixed;
+    padding: 10px 0;
 }
 
 a.logo {
     width: 25%;
     position: relative;
-    padding-left: 10px;
+    padding-left: 30px;
     text-decoration: none;
     height: auto;
     display: block;
     float: left;
 }
-
 
 .logo > h1 {
     position: relative;
@@ -29,48 +30,108 @@ a.logo {
 }
 
 li.nav-list {
-	display: inline;
-	margin-left: 10px;
+    display: inline;
+    margin-left: 10px;
+}
+
+ul, menu, dir {
+    margin: 0px;
+    padding: 0px;    
+}
+
+nav.menu ul {
+    float: right;
 }
 
 .menu {
     position: relative;
     list-style-type: none;
-    padding: 0;
+    padding-right: 30px;
     float: right;
-    width: 16%;
+    width: 25%;
     display: block;
     font-size: 20px;
 }
 
+.search-section input {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 30px;
+  height: 30px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  padding: 0 5px 0 8px;
+  width: 400px;
+}
+
+.search-section button {
+  font-size: 17px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
 
 input.search {
-	height: 25px;
-	width: 150px;
+    height: 25px;
+    width: 150px;
 }
 
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 .fa-star:hover {
-	color: yellow;
+    color: yellow;
+}
+
+.container {
+    max-width: 500px;
+    height: auto;
+    position: relative;
+    top: 80px;
+    padding: 0px 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 65px;
+}
+
+
+section.search-section, .pages {
+    padding: 25px 50px;
+    display: block;
+}
+
+.pages {
+  display: inline-block;
+  font-size: 0;
+  margin-bottom: 30px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
 }
 
 .pages-button {
-	/* will create thin black border, rounded edges for buttons */
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 3px;
 }
 
-li.listings {
-	/* will replace bulletpoint with star, add margins */
+.pages-display {
+  font-size: 16px;
+  padding: 0 30px;
+  padding: 8px 25px;
+  border-left: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
 }
 
-li.listings:hover {
- 	/* will turn the star yellow when hovered */
+li.listing {
+	list-style-type: none;
 }
 
 .listings {
